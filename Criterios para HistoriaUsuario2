@@ -1,0 +1,11 @@
+Característica: Cálculo de ruta más corta
+  Para reducir el consumo de combustible del chofer
+  Como chofer asignado a un viaje
+  Quiero recibir la ruta más eficiente basada en distancia
+
+  Escenario: El chofer confirma un viaje y se genera la ruta
+    Dado que el chofer "Corleto" está visualizando una solicitud de viaje
+    Cuando "Corleto" presiona el botón "Aceptar Viaje"
+    Y el servidor valida la asignación del viaje exitosamente
+    Entonces el sistema debe consultar la API de mapas subyacente
+    Y la aplicación debe trazar y mostrar de inmediato la ruta con la menor distancia en kilómetros/metros hacia el punto de encuentro
