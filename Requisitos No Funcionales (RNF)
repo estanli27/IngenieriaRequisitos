@@ -1,0 +1,5 @@
+Requisito No Funcional 1: Escalabilidad y Concurrencia. El sistema backend (API y base de datos) debe ser capaz de soportar y procesar solicitudes de al menos 1000 usuarios concurrentes sin que el tiempo de respuesta del servidor exceda los dos segundos, evitando bloqueos o caidas del servicio.
+
+Requisito No Funcional 2: Seguridad y Cifrado de Datos. Toda la comunicación entre la aplicación movil y los servidores debe estar encriptada en tránsito utilizando protocolos seguros. Los datos sensibles de los choferes y pasajeros deben estar cifrados en reposo para prevenir la exfiltración de informacion.
+
+Requisito No Funcional 3: Disponibilidad y Baja Latencia (Tiempo Real). La sincronizacion y publicación de nuevos viajes hacia los choferes debe realizarse mediante protocolos bidireccionales de baja latencia (ej. WebSockets o Server-Sent Events), garantizando un retraso maximo de 1 a 2 segundos desde que el pasajero crea la solicitud hasta que se refleja en los dispositivos cercanos.
