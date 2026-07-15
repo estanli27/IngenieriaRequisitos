@@ -1,0 +1,11 @@
+Característica: Visualización de viajes cercanos en tiempo real
+  Para garantizar que los choferes consigan viajes rápidamente
+  Como chofer activo
+  Quiero ver las solicitudes de viajes cercanos sin recargar la aplicación
+
+  Escenario: Un nuevo viaje se emite en el radio de cobertura del chofer
+    Dado que el chofer "Corleto" tiene la aplicación en estado "Disponible"
+    Y su ubicación GPS actual está registrada en el sistema
+    Cuando el pasajero "Alison" solicita un viaje a 3 kilómetros de distancia de "Corleto"
+    Entonces la solicitud de "Alison" debe aparecer en la pantalla de "Corlento" en menos de 2 segundos
+    Y los datos del pasajero mostrados a "Folleto" no deben exponer información personal sensible como número de teléfono completo o documento de identidad
