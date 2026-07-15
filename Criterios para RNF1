@@ -1,0 +1,11 @@
+Característica: Estabilidad bajo alta concurrencia
+  Para evitar que la aplicación se congele o bloquee
+  Como administrador del sistema
+  Quiero que la infraestructura soporte picos de tráfico
+
+  Escenario: 1000 usuarios activos simulrsneamente
+    Dado que el sistema tiene 999 usuarios (choferes y pasajeros) realizando operaciones de lectura y escritura en la aplicación
+    Cuando el usuario número 1000 inicia sesión y solicita un viaje
+    Entonces el sistema debe procesar la solicitud
+    Y la aplicación del usuario número 1000 no debe mostrar pantallas de error de carga
+    Y el tiempo de respuesta total del servidor para esta operación debe ser menor o igual a 2 segundos
