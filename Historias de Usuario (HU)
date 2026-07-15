@@ -1,0 +1,9 @@
+Historias de Usuario 1: Radar de viajes cercanos en tiempo real
+Como chofer activo en la plataforma,
+Quiero ver en mi mapa o lista las solicitudes de viaje que se emitan cerca de mi ubicación actual de forma rapida,
+Para poder pensar y aceptar rapidamente la oportunidad de viaje que mas me convenga.
+
+Historias de Usuario 2: Optimización de ruta post-aceptación
+Como chofer que ha aceptado un viaje,
+Quiero que la aplicación me trace automaticamente la ruta mas corta en distancia hacia el punto de recogida hasta el punto de destino final,
+Para minimizar el tiempo del trayecto y reducir mi consumo de combustible.
